@@ -21,7 +21,7 @@ const Home = () => {
                     style={styles.gamerImage}
                 />
                 <Text style={styles.title}>Vote agora!</Text>
-                <Text style={styles.subTitle}>Nos diga qual é seu jogo favotito</Text>
+                <Text style={styles.subTitle}>Nos diga qual é seu jogo favorito</Text>
             </View>
             <View style={styles.footer}>
                 <RectButton style={styles.button} onPress={handleOnPress}>
@@ -50,7 +50,6 @@ gamerImage: {
 title: {
     color: '#00D4FF',
     fontSize: 36,
-    fontWeight: 'bold',
     marginTop: 31,
     fontFamily: "Play_700Bold",
 },
@@ -83,7 +82,6 @@ buttonText: {
     paddingLeft: 50,
     paddingRight: 50,
     fontFamily: "Play_700Bold",
-    fontWeight: 'bold',
     fontSize: 18,
     color: '#0B1F34',
 }
