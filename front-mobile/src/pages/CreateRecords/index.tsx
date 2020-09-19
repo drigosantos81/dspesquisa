@@ -147,6 +147,7 @@ const pickerSelectStyles = StyleSheet.create({
         borderRadius: 10,
         color: '#ED7947',
         paddingRight: 30,
+        fontWeight: 'normal',
         fontFamily: "Play_700Bold",
         height: 50
     },
@@ -173,6 +174,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFF',
         borderRadius: 10,
         color: '#ED7947',
+        fontWeight: 'normal',
         fontFamily: "Play_700Bold",
         fontSize: 16,
         paddingLeft: 20,
@@ -198,7 +200,6 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontFamily: "Play_700Bold",
-        fontWeight: 'bold',
         fontSize: 18,
         color: '#0B1F34',
     }
