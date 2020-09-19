@@ -13,7 +13,8 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = 'http://192.168.1.33:8081';
+const BASE_URL = 'https://sds1-rodrigo81.herokuapp.com';
+// const BASE_URL = 'http://192.168.1.33:8081';
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({
@@ -104,6 +105,7 @@ const CreateRecord = () => {
                     />
                 </View>
                 <RNPickerSelect
+                    useNativeAndroidPickerStyle={false}
                     onValueChange={value => {
                         setSelectedGame(value)
                     }}
